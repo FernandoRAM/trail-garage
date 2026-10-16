@@ -20,9 +20,9 @@
   --line: #262a27;
   --text: #f2f4ef;
   --muted: #a3aaa2;
-  --accent: #e4ff3f;
+  --accent: #4db3c9;
   --on-accent: #0a0b0a;
-  --ai: #e4ff3f;
+  --ai: #4db3c9;
   --sos: #ff2d1a;
 }
 @media (prefers-color-scheme: light) {
@@ -35,7 +35,7 @@
     --muted: #55594f;
     --accent: #1a1a1a;
     --on-accent: #ffffff;
-    --ai: #d84e00;
+    --ai: #0e7c90;
     --sos: #c8170a;
   }
 }
