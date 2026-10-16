@@ -20,18 +20,18 @@
 
   <main class="wrap legal">
     <h1>Política de privacidad</h1>
-    <p class="meta">Moto Dash, una app de Trail Garage · Última actualización: 14 de octubre de 2026</p>
+    <p class="meta">Moto Dash, una app de Trail Garage · Última actualización: 15 de octubre de 2026</p>
 
     <h2>En pocas palabras</h2>
     <p>Moto Dash no tiene cuentas, no tiene servidores y no se conecta a internet para funcionar. Nada de lo que la app ve en tu teléfono (tu ubicación, tus contactos, tus notificaciones) se envía a Trail Garage ni a terceros. No mostramos anuncios y no usamos analíticas ni rastreadores.</p>
-    <p>La única información que sale de tu teléfono es el mensaje SMS de emergencia que tú mismo configuras, dirigido a los contactos que tú eliges y mandado por tu operador, como cualquier otro SMS.</p>
+    <p>La única información que la app envía fuera de tu teléfono es el SMS de emergencia, dirigido a los contactos que tú eliges y mandado por tu operador, como cualquier otro SMS. Más abajo explicamos exactamente qué lleva. Aparte, si tienes activado el respaldo de Android, Google puede copiar los ajustes de la app a tu cuenta (ver "Datos que se guardan en tu teléfono").</p>
 
     <h2>Qué permisos pide la app y para qué</h2>
     <table>
       <thead><tr><th>Permiso</th><th>Para qué se usa</th></tr></thead>
       <tbody>
         <tr><td>Ubicación (precisa y aproximada)</td><td>Mostrar tu velocidad y la brújula, y poner tus coordenadas en el mensaje de SOS. Solo se lee con la app en pantalla; la app no pide ubicación en segundo plano. La última posición se guarda en la memoria del teléfono unos segundos para poder usarla en un SOS si el GPS tarda.</td></tr>
-        <tr><td>Enviar SMS</td><td>Mandar el mensaje de SOS a tus contactos de emergencia al terminar la cuenta regresiva. La app no lee ni recibe tus SMS.</td></tr>
+        <tr><td>Enviar SMS</td><td>Mandar el mensaje de SOS a tus contactos de emergencia al terminar la cuenta regresiva, o una actualización si la pides desde la pantalla de confirmación. El mensaje lleva tus coordenadas, un enlace a Google Maps, el nivel de batería y, si la ubicación es vieja, cuánto tiempo tiene (detalle en "El mensaje de SOS"). La app no lee ni recibe tus SMS.</td></tr>
         <tr><td>Llamadas telefónicas</td><td>Llamar con un toque a los contactos favoritos de la pantalla de inicio. La app no consulta tu historial de llamadas.</td></tr>
         <tr><td>Acceso a notificaciones</td><td>Mostrar en pantalla las notificaciones de otras apps, saber qué música suena (título, artista, portada y controles) y, si usas Google Maps, leer la notificación de navegación para mostrar el siguiente giro. Se procesa en el teléfono y no se guarda ni se envía a ningún lado. Lo activas tú en los ajustes del sistema y puedes quitarlo cuando quieras.</td></tr>
         <tr><td>Mostrar sobre otras apps</td><td>Dibujar la burbuja flotante (Volver, Voz, SOS) encima de Google Maps. Lo activas tú en los ajustes del sistema.</td></tr>
@@ -48,10 +48,17 @@
       <li>Tus contactos de emergencia y favoritos: nombre y número del contacto que elegiste con el selector del sistema. La app no lee el resto de tu agenda.</li>
       <li>Los dispositivos Bluetooth que elegiste para abrir la app.</li>
     </ul>
-    <p>Todo esto vive únicamente en el almacenamiento de la app. Se borra al desinstalarla o al borrar sus datos desde los ajustes de Android. No hay copia en la nube de nuestra parte.</p>
+    <p>Todo esto vive en el almacenamiento de la app, y Trail Garage no guarda ninguna copia en la nube. Se borra al desinstalar la app o al borrar sus datos desde los ajustes de Android, con una excepción: si tienes activado el respaldo de Android, Google puede incluir estos datos en la copia de seguridad de tu cuenta y restaurarlos si reinstalas la app o cambias de teléfono. Trail Garage no tiene acceso a esa copia. Puedes desactivar el respaldo en los ajustes de copia de seguridad de Android.</p>
 
     <h2>El mensaje de SOS</h2>
-    <p>Al activar el SOS, la app arma un SMS con tu aviso y un enlace de Google Maps con tus coordenadas, y lo manda a los contactos que elegiste. Ese mensaje viaja por la red de tu operador y puede generar el costo de un SMS según tu plan. Los destinatarios y tu operador ven su contenido como en cualquier SMS; Trail Garage no recibe una copia.</p>
+    <p>El SMS se manda solo cuando mantienes presionado el botón SOS y dejas que termine la cuenta regresiva de 5 segundos sin cancelarla, o cuando tocas "Enviar actualización" en la pantalla de confirmación. Llega a los contactos de emergencia que elegiste y contiene:</p>
+    <ul>
+      <li>Un aviso: "EMERGENCIA - Puedo necesitar ayuda." (o "ACTUALIZACION" si es una actualización).</li>
+      <li>Tus coordenadas y un enlace a Google Maps armado con ellas, sin consultar internet. Si el teléfono no logra una posición, el mensaje lo dice: "Sin ubicacion GPS disponible."</li>
+      <li>Si la ubicación tiene más de 30 segundos, cuánto tiempo tiene (por ejemplo, "Ubicacion de hace 4 min.").</li>
+      <li>El nivel de batería de tu teléfono.</li>
+    </ul>
+    <p>No incluye tu nombre, el de tus contactos ni ningún otro dato. Va sin acentos a propósito, para que quepa en un solo SMS y llegue completo. El mensaje viaja por la red de tu operador y puede generar el costo de un SMS según tu plan. Los destinatarios y tu operador ven su contenido como en cualquier SMS; Trail Garage no recibe una copia.</p>
 
     <h2>Servicios de terceros</h2>
     <p>La app abre otras aplicaciones cuando se lo pides: Google Maps para navegar y el asistente de voz de tu teléfono para el botón de Voz. Esas apps tienen sus propias políticas de privacidad, que no controlamos.</p>
